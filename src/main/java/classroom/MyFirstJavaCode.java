@@ -97,9 +97,5 @@ public class MyFirstJavaCode {
 
         boolean isAGreaterThanB = a > b;  // true
         System.out.printf("Is a greater than b: %b", isAGreaterThanB);
-
-
     }
-
-
 }
