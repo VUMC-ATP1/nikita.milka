@@ -18,6 +18,7 @@ public class Guesser {
         boolean isGuessed = false;
 
         while (!isGuessed) {
+            System.out.println("Random:" + randomNumber);
             System.out.println("Please enter number:");
             int answer = scanner.nextInt();
             if (answer < 1 || answer > 10) {
